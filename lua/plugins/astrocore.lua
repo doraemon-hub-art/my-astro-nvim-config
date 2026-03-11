@@ -83,6 +83,13 @@ return {
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
       },
+      i = {
+        -- 在插入模式按住 Alt + h/j/k/l 就可以直接移动光标
+        ["<A-h>"] = { "<Left>", desc = "Move left" },
+        ["<A-j>"] = { "<Down>", desc = "Move down" },
+        ["<A-k>"] = { "<Up>", desc = "Move up" },
+        ["<A-l>"] = { "<Right>", desc = "Move right" },
+      },
     },
   },
 }
