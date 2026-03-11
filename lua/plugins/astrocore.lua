@@ -48,6 +48,7 @@ return {
         wrap = false, -- sets vim.opt.wrap
 	      cursorline = true, -- highlight current row
       	cursorcolumn = true, -- highlight current col
+	      clipboard = "unnamedplus", -- copy for system copy board need --- sudo apt install xclip
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
