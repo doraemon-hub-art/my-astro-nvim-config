@@ -77,6 +77,28 @@ return {
           desc = "Close buffer from tabline",
         },
 
+        ["<Leader>df"] = {
+        function()
+          local file = vim.fn.expand("%:t")
+          local date = os.date("%Y-%m-%d")
+          local year = os.date("%Y")
+          local lines = {
+          "/**",
+          " * @file " .. file,
+          " * @author doraemon-hub-art",
+          " * @brief ",
+          " * @date " .. date,
+          " * ",
+          " * @copyright Copyright (c) " .. year,
+          " */",
+        }
+        vim.api.nvim_buf_set_lines(0, 0, 0, false, lines)
+        -- 让光标停在 @brief 那一行（第 4 行）的末尾
+        vim.api.nvim_win_set_cursor(0, {4, 11}) 
+        end,
+        desc = "生成文件头 (原生版)",
+      },
+
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
