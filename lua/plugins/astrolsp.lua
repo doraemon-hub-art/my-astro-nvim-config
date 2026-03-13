@@ -40,6 +40,9 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      "lus_ls",
+      "clangd", -- c/c++
+      "vtsls" -- js/ts
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
