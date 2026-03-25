@@ -8,5 +8,10 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.cmake" },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.scrolling.nvim-scrollbar" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" }
   -- import/override with your plugins folder
 }
