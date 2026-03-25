@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" }
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.startup.alpha-nvim" },
   -- import/override with your plugins folder
 }
