@@ -40,7 +40,7 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
-      "lus_ls",
+      "lua_ls",
       "clangd", -- c/c++
       "vtsls" -- js/ts
     },
