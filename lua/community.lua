@@ -14,6 +14,9 @@ return {
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.startup.alpha-nvim" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
+  { import = "astrocommunity.completion.cmp-cmdline" }
   -- { import = "astrocommunity.media.pets-nvim" } -- must use kitty termal
   -- import/override with your plugins folder
 }
