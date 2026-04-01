@@ -42,7 +42,8 @@ return {
       -- "pyright"
       "lua_ls",
       "clangd", -- c/c++
-      "vtsls" -- js/ts
+      "vtsls", -- js/ts
+      "rust_analyzer" -- rust
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
