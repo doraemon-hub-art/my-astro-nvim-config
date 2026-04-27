@@ -17,7 +17,8 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
-  { import = "astrocommunity.media.pets-nvim" }, -- must use kitty termal
-  { import = "astrocommunity.pack.rust" }
+  { import = "astrocommunity.media.pets-nvim" }, -- must use kitty terminal
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.ai.avante-nvim" },
   -- import/override with your plugins folder
 }
