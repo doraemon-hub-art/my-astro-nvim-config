@@ -20,6 +20,7 @@ return {
   { import = "astrocommunity.media.pets-nvim" }, -- must use kitty terminal
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.ai.avante-nvim" },
-  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" }
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  { import = "astrocommunity.colorscheme.citruszest-nvim" },
   -- import/override with your plugins folder
 }
