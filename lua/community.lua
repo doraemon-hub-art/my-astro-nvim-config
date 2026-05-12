@@ -22,5 +22,7 @@ return {
   { import = "astrocommunity.ai.avante-nvim" },
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
   { import = "astrocommunity.colorscheme.citruszest-nvim" },
+  { import = "astrocommunity.colorscheme.neofusion-nvim" },
+  { import = "astrocommunity.colorscheme.bamboo-nvim" },
   -- import/override with your plugins folder
 }
