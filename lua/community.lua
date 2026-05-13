@@ -24,5 +24,6 @@ return {
   { import = "astrocommunity.colorscheme.citruszest-nvim" },
   { import = "astrocommunity.colorscheme.neofusion-nvim" },
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
+  { import = "astrocommunity.pack.proto" },
   -- import/override with your plugins folder
 }
