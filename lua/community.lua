@@ -25,5 +25,6 @@ return {
   { import = "astrocommunity.colorscheme.neofusion-nvim" },
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
   { import = "astrocommunity.pack.proto" },
+  { import = "astrocommunity.scrolling.neoscroll-nvim" },
   -- import/override with your plugins folder
 }
