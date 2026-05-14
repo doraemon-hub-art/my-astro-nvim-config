@@ -25,7 +25,7 @@ wq/q + a 都是将命令作用与当前打开的所有窗口
 		- e 向后跳转到下一个单词末尾；
 	- 翻页跳转；
 		- Ctrl + d 向下翻半屏；
-		- Ctrl + u 向上翻半屏；
+		- Ctrl + u 向上翻半屏； 
 	- 绝对位置跳转；
 		- Ctrl + o 上一个位置；
 		- Ctrl + i 下一个位置；
@@ -87,6 +87,8 @@ Ctrl + shift + n 新建一个独立的terminal
 
 Leader + S l加载上一次的工作区
 
+- leader + tt，性能监控；
+
 - TODO
 	- leader + s T ，查看 TODO 和 NOTE 标记的内容；
  
@@ -110,3 +112,8 @@ H 关闭文件目录树隐藏文件
 
 ====================== 辅助工具
 - 窗口项目多开 Tabby，用于开多个终端；	
+- avante ai修改意见；
+  - ct (Choose Theirs)：接收 AI 的修改（使用 AI 的代码）；
+  - co (Choose Ours)：拒绝 AI 的修改（保留你原来的代码）；
+  - cb (Choose Both)：两者都选（同时保留，通常用于合并）；
+  - c0 (Choose None)：两者都不选；
