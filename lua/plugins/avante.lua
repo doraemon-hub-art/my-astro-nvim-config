@@ -1,4 +1,5 @@
 -- lua/plugins/avante.lua
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 return {
   {
     "yetone/avante.nvim",
@@ -14,9 +15,10 @@ return {
           model = "deepseek-v4-flash", -- 注意：目前官方是 deepseek-chat 或 deepseek-reasoner，没有 v4-flash
           api_key_name = "DEEPSEEK_API_KEY", -- 建议写变量名，然后在系统里设置
           timeout = 30000,
-          temperature = 0,
           max_tokens = 4096,
           extra_request_body = {
+            temperature = 0,
+            max_tokens = 4096,
             thinking = { type = "disabled" }, -- disable thinking for deepseek-v4-flash
           }
         },
