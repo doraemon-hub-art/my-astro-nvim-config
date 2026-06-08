@@ -25,3 +25,6 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- Disable auto-adding end-of-line newline on save
+vim.opt.fixendofline = false
