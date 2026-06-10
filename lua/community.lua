@@ -26,6 +26,6 @@ return {
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
   { import = "astrocommunity.pack.proto" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
-  { import = "astrocommunity.terminal-integration.floaterm" },
+  -- { import = "astrocommunity.terminal-integration.floaterm" },
   -- import/override with your plugins folder
 }
