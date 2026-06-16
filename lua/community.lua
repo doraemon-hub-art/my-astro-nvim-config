@@ -27,5 +27,6 @@ return {
   { import = "astrocommunity.pack.proto" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   -- { import = "astrocommunity.terminal-integration.floaterm" },
+  { import = "astrocommunity.ai.codecompanion-nvim" },
   -- import/override with your plugins folder
 }
